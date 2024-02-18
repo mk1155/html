@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blushing Blooms - Flower Bouquet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="Capture.PNG" alt="Blushing Blooms Logo">
+            <span>Blushing Blooms</span>
+        </a>
+        <form action="#">
+            <input type="text" id="search" placeholder="Search">
+            <button type="submit">Go</button>
+        </form>
+    </div>
+</header>
+
+<nav class="container">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Flowers</a></li>
+        <li><a href="#">Occasions</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+    <div class="product-details">
+        <div class="image-container">
+            <img src="Capture 5.PNG" alt="Enchanted Rose Bouquet">
+        </div>
+        <div class="description">
+            <h1>Enchanted Rose Bouquet</h1>
+            <p>Surprise your loved one with this breathtaking bouquet of 12 premium roses, hand-arranged to perfection. The vibrant mix of pink, red, and white roses symbolizes deep affection and lasting love.</p>
+            <h2>Features:</h2>
+            <ul>
+                <li>12 fresh, long-stemmed roses (6 pink, 3 red, 3 white)</li>
+                <li>Delicate eucalyptus greenery</li>
+                <li>Stylish wrapping paper and ribbon</li>
+                <li>Available in two sizes: Standard and Deluxe</li>
+                <li>Optional personalized message card</li>
+            </ul>
+        </div>
+    </div>
+    <div class="variations">
+        <h2>Choose Your Bouquet:</h2>
+        <div class="size-options">
+            <input type="radio" id="size-standard" name="size" checked>
+            <label for="size-standard">Standard (12 Roses)</label>
+            <input type="radio" id="size-deluxe" name="size">
+            <label for="size-deluxe">Deluxe (18 Roses)</label>
+
+        </div>
+        <div class="message-option">
+            <label for="message">Add a Personalized Message:</label>
+            <textarea id="message" rows="4"></textarea>
+            <br><br>
+        </div>
+        <a href="#" class="button add-to-cart">Add to Cart</a>
+        <a href="#" class="button view-cart">View Cart</a>
+    </div>
+</main>
+
+<section class="container similar-products">
+    <h2>More to Adore:</h2>
+    <div class="product-grid">
+        <div class="product">
+            <img src="Capture.PNG" alt="Product 2">
+            <h3>Sweet Sunflowers</h3>
+            <p>Brighten their day...</p>
+        </div>
+        <div class="product">
+            <img src="Capture.PNG" alt="Product 3">
+            <h3>Elegant Lilies</h3>
+            <p>Timeless beauty...</p>
+        </div>
+        <div class="product">
+            <img src="Capture 1.PNG" alt="Product 4">
+            <img src="Capture 4.PNG" alt="Product 4">
+            <h3>Charming Tulips</h3>
+            <p>Springtime delight...</p>
+            <img src="Capture 2.PNG"alt="Product 5">
+            <img src="Capture 3.PNG" alt="Product 5">
+        </div>
+    </div>
+</section>
+
+<footer class="container">
+    <p>&copy; 2024 Blushing Blooms. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+
+
